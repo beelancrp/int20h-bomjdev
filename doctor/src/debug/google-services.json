@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "10855713779",
+    "firebase_url": "https://myfood-fb030.firebaseio.com",
+    "project_id": "myfood-fb030",
+    "storage_bucket": "myfood-fb030.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10855713779:android:b14be2e8e4a1124e",
+        "android_client_info": {
+          "package_name": "com.bomjdev.myfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10855713779-uqebtpip1fnb66vngrqn1rol4su7ndah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGWkUT9oJvRTuKoPC1qyun0ve0GUW7f0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10855713779:android:d8ac071b42bcebc4",
+        "android_client_info": {
+          "package_name": "com.bomjdev.myfood.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10855713779-7c28npvfov47nduckk3o1sg9ser9l4p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bomjdev.myfood.doctor",
+            "certificate_hash": "8118e54737b6ca8f4c8271100064e3c4f3f08732"
+          }
+        },
+        {
+          "client_id": "10855713779-uqebtpip1fnb66vngrqn1rol4su7ndah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGWkUT9oJvRTuKoPC1qyun0ve0GUW7f0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10855713779-uqebtpip1fnb66vngrqn1rol4su7ndah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
