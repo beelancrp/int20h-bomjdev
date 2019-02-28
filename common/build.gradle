@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 28
+}
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.0.2'
+
+    api 'com.google.firebase:firebase-auth:16.1.0'
+    api 'com.google.firebase:firebase-database:16.0.6'
+    api 'com.google.firebase:firebase-core:16.0.7'
+
+    api 'io.reactivex.rxjava2:rxkotlin:2.3.0'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
+
+    api "com.google.dagger:dagger:$dagger_version"
+    api "com.google.dagger:dagger-android:$dagger_version"
+    api "com.google.dagger:dagger-android-support:$dagger_version"
+
+    api "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
+
+    api "androidx.core:core-ktx:1.0.1"
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    api 'com.google.android.material:material:1.0.0'
+}
